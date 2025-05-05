@@ -49,7 +49,7 @@ public class BaseTest {
 
     @AfterClass
     public void tearDown(){
-        basePage.delay(10000);
+        basePage.delay(5000); // reduced the delay from 10s to 5s
         driver.quit();
     }
 }
